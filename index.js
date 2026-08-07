@@ -1,15 +1,3 @@
-const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 3000;
-
-app.get('/', (req, res) => {
-  res.send('El bot sigue vivo y funcionando.');
-});
-
-app.listen(PORT, () => {
-  console.log(`Servidor web activo en el puerto ${PORT}`);
-});
-
 "use strict";
 
 const { addLog, getLogs } = require("./logger");
