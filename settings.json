@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "loris.aternos.host",
+    "ip": "MCvespera.aternos.me",
     "port": 57350,
     "version": "1.21",
     "try-creative": false
